@@ -21,7 +21,7 @@ function EternalPalace:OnEnable()
   --------------------------------------------------
   ----- EternalPalace
   --------------------------------------------------
-  
+
   -----------------------------------
   ----- Abyssal Commander
   -----------------------------------
@@ -46,7 +46,7 @@ function EternalPalace:OnEnable()
     168384,
     168905,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
   -----------------------------------
   ----- Blackwater Behemoth
   -----------------------------------
@@ -69,7 +69,7 @@ function EternalPalace:OnEnable()
     168342,
     169360,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
   -----------------------------------
   ----- Lady Ashvane
   -----------------------------------
@@ -90,7 +90,7 @@ function EternalPalace:OnEnable()
     168889,
     169358,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
   -----------------------------------
   ----- Orgozoa
   -----------------------------------
@@ -112,7 +112,7 @@ function EternalPalace:OnEnable()
     168352,
     168875,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
   -----------------------------------
   ----- Radiance of Azshara
   -----------------------------------
@@ -135,7 +135,7 @@ function EternalPalace:OnEnable()
     168374,
     169694,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
   -----------------------------------
   ----- Za'Qul
   -----------------------------------
@@ -156,7 +156,7 @@ function EternalPalace:OnEnable()
     169362,
     168868,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
 
   -----------------------------------
   ----- Queen Azshara
@@ -180,7 +180,7 @@ function EternalPalace:OnEnable()
     168538,
     168944,
   }
-  self:RegisterBossLoot(UD, lootTable, bossName)
+  self:RegisterBossLoot(EP, lootTable, bossName)
 
   -----------------------------------
   ----- Trash loot
@@ -201,13 +201,13 @@ function EternalPalace:OnEnable()
 end
 
 function EternalPalace:InitializeZoneDetect(ZoneDetect)
-  ZoneDetect:RegisterMapID(1515, UD)
-  ZoneDetect:RegisterNPCID(155144, UD, 1) --Abyssal Commander
-  ZoneDetect:RegisterNPCID(154986, UD, 2) --Blackwater Behemoth
-  ZoneDetect:RegisterNPCID(153142, UD, 3) --Lady Ashvane
-  ZoneDetect:RegisterNPCID(152128, UD, 4) --Orgozoa
-  ZoneDetect:RegisterNPCID(152364, UD, 5) --Radiance of Azshara
-  ZoneDetect:RegisterNPCID(152853, UD, 6) --Queen's Court
-  ZoneDetect:RegisterNPCID(150859, UD, 7) --Za'Qul
-  ZoneDetect:RegisterNPCID(155126, UD, 8) --Queen Azshara
+  ZoneDetect:RegisterMapID(1515, EP)
+  ZoneDetect:RegisterNPCID(155144, EP, 1) --Abyssal Commander
+  ZoneDetect:RegisterNPCID(154986, EP, 2) --Blackwater Behemoth
+  ZoneDetect:RegisterNPCID(153142, EP, 3) --Lady Ashvane
+  ZoneDetect:RegisterNPCID(152128, EP, 4) --Orgozoa
+  ZoneDetect:RegisterNPCID(152364, EP, 5) --Radiance of Azshara
+  ZoneDetect:RegisterNPCID(152853, EP, 6) --Queen's Court
+  ZoneDetect:RegisterNPCID(150859, EP, 7) --Za'Qul
+  ZoneDetect:RegisterNPCID(155126, EP, 8) --Queen Azshara
 end

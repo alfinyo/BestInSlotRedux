@@ -1,8 +1,8 @@
-## Interface: 80100
+## Interface: 80200
 ## Title: Best In Slot Redux [|cffff975bBattle for Azeroth Dungeons|r]
 ## Notes: Battle for Azeroth Dungeon Module for BestInSlotRedux
-## Author: Beleria @ Argent Dawn-EU, Anhility @ Ravencrest-EU, Sar\195\173th @ Tarren Mill-EU
-## Version: @project-version@
+## Author: Sweet @ Antonidas, Beleria @ Argent Dawn-EU, Anhility @ Ravencrest-EU, Sar\195\173th @ Tarren Mill-EU
+## Version: v8.2.0
 ## Dependencies: BestInSlotRedux
 
 BestInSlotRedux_BfaDungeons.lua
